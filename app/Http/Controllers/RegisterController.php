@@ -6,6 +6,7 @@ use App\Models\User;
 use Illuminate\Http\Request;
 use Faker\Generator;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\URL;
 
 class RegisterController extends Controller
 {

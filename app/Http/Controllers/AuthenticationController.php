@@ -12,6 +12,11 @@ class AuthenticationController extends Controller
         $this->middleware('auth')->only('destroy');
     }
 
+    public function showLogin()
+    {
+        return view('auth.login');
+    }
+
     public function destroy(Request $request)
     {
         Auth::logout();

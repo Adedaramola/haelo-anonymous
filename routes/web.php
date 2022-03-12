@@ -21,8 +21,9 @@ Route::get('/', [HomeController::class, 'index']);
 
 Route::post('/', [RegisterController::class, 'store'])->name('register');
 
-Route::post('/logout', [AuthenticationController::class, 'destroy'])
-    ->name('logout');
+Route::get('/login', [AuthenticationController::class, 'showLogin']);
+Route::post('/login', [AuthenticationController::class, 'store']);
+Route::post('/logout', [AuthenticationController::class, 'destroy']);
 
 Route::get('/{user:username}', [PostMessageController::class, 'show'])
     ->name('user');

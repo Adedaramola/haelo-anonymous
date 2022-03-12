@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('body')
-    <div class="flex-1 flex flex-col items-center justify-center px-4 py-8">
+    <div>
         @if (session('success'))
             <div class="w-full max-w-sm mb-3 px-4 py-3 bg-green-50 text-green-600 rounded border border-green-600">
                 {{ session('success') }}
