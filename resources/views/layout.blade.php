@@ -22,7 +22,7 @@
                     class="focus:outline-none text-indigo-900 underline font-semibold text-lg underline-offset-2">Log
                     In</a>
                     <a href="/"
-                    class="focus:outline-none text-indigo-900 underline font-semibold text-lg underline-offset-2">Create an account</a>
+                    class="hidden sm:block focus:outline-none text-indigo-900 underline font-semibold text-lg underline-offset-2">Create an account</a>
                 </div>
                 @endguest
 

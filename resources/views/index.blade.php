@@ -12,7 +12,7 @@
         @csrf
         <div class="flex flex-col sm:flex-row">
             <input type="text" name="username"
-                class="flex-1 px-4 sm:px-6 focus:ring-0 focus:border-none focus:outline-none"
+                class="flex-1 px-6 py-3 sm:py-0 rounded-3xl sm:rounded-none focus:ring-0 focus:border-none focus:outline-none"
                 placeholder="Enter a username" autocomplete="off" required autofocus>
             <button type="submit"
                 class="flex-shrink-0 mt-3 sm:mt-0 px-6 py-3 bg-indigo-900 text-yellow-200 rounded-3xl">
